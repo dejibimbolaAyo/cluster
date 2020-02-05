@@ -11,7 +11,7 @@ Npm.depends({
   "portscanner": "1.0.0",
   // mongodb@1.4.32 with binary modules removed!
   // Stolen from Meteor's mongo package. see: http://goo.gl/GJJQ8e
-  "mongodb": "https://github.com/meteor/node-mongodb-native/tarball/634759e6326dc19a228df66ddb309285532f3b8a"
+  "mongodb": "https://github.com/meteor/node-mongodb-native/tarball/1.3.7-with-null-checks"
 });
 
 Package.onTest(function(api) {
