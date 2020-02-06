@@ -2,7 +2,7 @@ Package.describe({
   "summary": "Clustering solution for Meteor with load balancing and service discovery.",
   "version": "1.9.0",
   "git": "https://github.com/meteorhacks/cluster.git",
-  "name": "dejibimbola:cluster"
+  "name": "ayor:cluster"
 });
 
 Npm.depends({
@@ -37,7 +37,7 @@ Package.onUse(function(api) {
 });
 
 function configurePackage(api) {
-  api.versionsFrom('METEOR@0.9.2');
+  api.versionsFrom('METEOR@1.9.0');
   api.use(['webapp'], 'server');
   api.use([
     'ddp', 'underscore'
