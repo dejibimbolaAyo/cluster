@@ -37,7 +37,7 @@ Package.onUse(function(api) {
 });
 
 function configurePackage(api) {
-  api.versionsFrom('METEOR@1.9.0');
+  api.versionsFrom('METEOR@1.9');
   api.use(['webapp'], 'server');
   api.use([
     'ddp', 'underscore'
